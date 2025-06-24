@@ -26,6 +26,8 @@ function generateSubjectInputs() {
         return;
     }
 
+ 
+
     totalSubjects = subjectCount;
     currentSubjectIndex = 0;
     subjects = [];
@@ -75,6 +77,7 @@ function showSubjectForm(index) {
         document.getElementById('subject-obtained').addEventListener('input', () => {
             document.getElementById('obtained-error').innerText = '';
         });
+
     }, 0);
 }
 
@@ -140,7 +143,7 @@ function submitCurrentSubject() {
 
     if (!isValid) return;
 
- 
+
     subjects.push({ name, total, obtained });
 
 
@@ -160,3 +163,16 @@ function checkResult() {
     // Navigate to result page
     window.location.href = 'result.html';
 }
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const subjectCountInput = document.getElementById('subject-count');
+    const errorBox = document.querySelector('.subject-invalid-count');
+
+    if (subjectCountInput) {
+        subjectCountInput.addEventListener('input', () => {
+            errorBox.innerText = '';
+            errorBox.style.display = 'none';
+        });
+    }
+});
