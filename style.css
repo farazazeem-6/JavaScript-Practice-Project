@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: rgb(242, 247, 247);
+}
+
+.studentname-invalid-input,
+.fathername-invalid-input,
+.rollno-invalid-input,
+.classname-invalid-input,
+.c-invalid-input,
+.oop-invalid-input,
+.database-invalid-input,
+.networking-invalid-input,
+.subject-name-invalid-input,
+.subject-invalid-count {
+    padding-top: 2px;
+    padding-left: 3px;
+    font-size: 11px;
+    color: red;
+}
+
+.outer-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.outer-container h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(68, 151, 57);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.outer-container h3 {
+    color: rgb(68, 151, 57);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    padding: 20px 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #ced4da;
+}
+
+::placeholder {
+    color: #e1e4e7;
+    font-size: 14px;
+}
+
+#form-1 {
+    margin-bottom: 1rem;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+#form-3 {
+    padding: 20px 100px;
+}
+
+#form-3 h3 {
+    color: rgb(68, 151, 57);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#form-4 {
+    padding: 5px 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    border: 1px solid #0f0f0f;
+    padding: 8px 15px;
+    color: black;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.button a:hover {
+    background-color: black;
+    color: white;
+}
+
+#result-details {
+    margin: 20px 50px;
+    border: 1px solid black;
+}
+
+.details {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.details-1 {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset !important;
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    background-color: white !important;
+}
+
+.result-info {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+table {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#subject-table-body td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+.student-name-info,
+.father-name-info,
+.class-name-info,
+.rollno-info,
+.grade-info,
+.total-marks-info {
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.first-btn {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-btn a {
+    text-decoration: none;
+    padding: 6px 25px;
+    border: 1px solid black;
+    color: black;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+.first-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:900px) {
+    #form-3 {
+        padding: 10px 0px;
+    }
+
+    #form-4 {
+        padding: 10px 0px;
+    }
+}
+
+@media(max-width:500px) {
+    #form-3 h3 {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+
+    table {
+        width: 80%;
+        font-size: 10px;
+    }
+}

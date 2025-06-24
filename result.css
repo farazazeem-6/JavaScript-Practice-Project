@@ -1,0 +1,18 @@
+table td {
+    text-align: center;
+}
+
+#go-back-btn {
+    display: flex;
+    margin: 0px auto 2rem;
+    
+}
+
+.student-name-info,
+.father-name-info,
+.class-name-info,
+.rollno-info,
+.grade-info,
+.total-marks-info {
+    border-bottom: 3px solid black;
+}

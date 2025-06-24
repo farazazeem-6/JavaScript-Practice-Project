@@ -1,0 +1,18 @@
+#subject-details {
+    margin-top: 2rem;
+}
+
+.error-message,
+.subject-name-error,
+.text-danger {
+    padding-top: 2px;
+    padding-left: 3px;
+    font-size: 11px;
+    color: red;
+}
+
+.small {
+    color: red;
+    font-size: 12px;
+    padding-left: 2px;
+}
