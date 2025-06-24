@@ -1,0 +1,1 @@
+The Student Result Portal is a simple web-based application that allows users to enter subject names, total marks, and obtained marks. It validates the inputs, stores the data in localStorage, and displays the final results on a separate page. The project is built using HTML, CSS, and JavaScript, focusing on form handling, validation, and local storage.
