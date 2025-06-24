@@ -165,7 +165,7 @@ function checkResult() {
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
+
     const subjectCountInput = document.getElementById('subject-count');
     const errorBox = document.querySelector('.subject-invalid-count');
 
@@ -175,4 +175,4 @@ document.addEventListener('DOMContentLoaded', () => {
             errorBox.style.display = 'none';
         });
     }
-});
+
