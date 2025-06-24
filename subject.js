@@ -130,7 +130,6 @@ function submitCurrentSubject() {
     }
 
 
-    // Convert to numbers after digit validation
     const total = parseInt(totalRaw);
     const obtained = parseInt(obtainedRaw);
 
