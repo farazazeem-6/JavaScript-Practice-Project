@@ -28,8 +28,8 @@ function CheckValidationsOfInputs() {
         document.querySelector('.studentname-invalid-input').innerText = 'Name must only contain letters (A-Z)';
         isValid = false;
     }
-    else if (studentName.length > 20) {
-        document.querySelector('.studentname-invalid-input').innerText = 'Too much long name';
+    else if (studentName.length < 3 || studentName.length > 20) {
+        document.querySelector('.studentname-invalid-input').innerText = 'Too long or too short name';
         isValid = false;
     }
 
@@ -40,8 +40,8 @@ function CheckValidationsOfInputs() {
         document.querySelector('.fathername-invalid-input').innerText = 'Father name must only contain letters (A-Z)';
         isValid = false;
     }
-    else if (fatherName.length > 20) {
-        document.querySelector('.fathername-invalid-input').innerText = 'Too much long name';
+    else if (fatherName.length < 3 || fatherName.length > 20) {
+        document.querySelector('.fathername-invalid-input').innerText = 'Too long or too short name';
         isValid = false;
     }
 
@@ -53,8 +53,8 @@ function CheckValidationsOfInputs() {
         document.querySelector('.classname-invalid-input').innerText = 'Please provide valid class name';
         isValid = false;
     }
-    else if (className.length > 20) {
-        document.querySelector('.classname-invalid-input').innerText = 'Too long class name';
+    else if (className.length < 2 || className.length > 20) {
+        document.querySelector('.classname-invalid-input').innerText = 'Too long or too short class name';
         isValid = false;
     }
 

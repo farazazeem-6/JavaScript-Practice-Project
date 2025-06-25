@@ -17,9 +17,12 @@
         crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="/search.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subject.css">
 </head>
 
 <body>
+    <button id="first-page" onclick="history.back()">Go Back</button>
+
     <div class="outer-container">
         <h1>Student Result Portal</h1>
         <h3>Subjects Details:</h3>
@@ -34,8 +37,8 @@
                     <div class="subject-invalid-count"></div>
                 </div>
 
-                <a href="#" class="btn btn-success" id="back-btn" onclick="history.back()"
-                    style="margin-top: 7px; margin-right: 7px; position: absolute; top: 90%;">Back</a>
+                <a href="#" class="btn btn-success mt-2 me-2" id="back-btn" onclick="goBackSubject()"
+                    style="display: none;">Back</a>
 
                 <button type="button" class="btn btn-primary mt-2" id="generate-subjects-btn"
                     onclick="generateSubjectInputs()">Submit</button>

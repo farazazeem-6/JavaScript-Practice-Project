@@ -16,3 +16,23 @@
     font-size: 12px;
     padding-left: 2px;
 }
+
+.btn-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#first-page {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(68, 151, 57);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 1.7rem;
+    left: 1rem;
+
+}
