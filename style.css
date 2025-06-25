@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: rgb(242, 247, 247);
+    /* background-color: rgb(242, 247, 247); */
+    background-color: rgb(220, 233, 222);
+    /* background-color: #0f0f0f; */
 }
 
 .studentname-invalid-input,

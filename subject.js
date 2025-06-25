@@ -164,8 +164,6 @@ function checkResult() {
     window.location.href = 'result.html';
 }
 
-
-
     const subjectCountInput = document.getElementById('subject-count');
     const errorBox = document.querySelector('.subject-invalid-count');
 
