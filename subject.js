@@ -14,7 +14,7 @@ function generateSubjectInputs() {
 
     const subjectCount = Number(subjectCountValue);
 
-    if (Number.isNaN(subjectCount) || subjectCount <= 0) {
+    if (isNaN(subjectCount) || subjectCount <= 0) {
         errorBox.innerText = 'Please enter a valid number of subjects.';
         errorBox.style.display = 'block';
         return;
@@ -71,7 +71,8 @@ function showSubjectForm(index) {
 
     subjectInputsContainer.appendChild(div);
 
-    // Remove old static back button if present
+    // Remove back button
+
     const staticBackBtn = document.getElementById('back-btn');
     if (staticBackBtn) staticBackBtn.style.display = 'none';
 
