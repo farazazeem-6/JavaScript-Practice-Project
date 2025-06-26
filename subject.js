@@ -59,9 +59,8 @@ function showSubjectForm(index) {
         <div class="text-danger small" id="obtained-error"></div>
 
         <div class="d-flex gap-2 mt-3">
-            ${index > 0
-            ? `<button class="btn btn-success" onclick="goBackSubject()">Back</button>`
-            : ''}
+           <button class="btn btn-secondary" onclick="goBackSubject()">Back</button>
+
           <button class="btn ${isLast ? 'btn-success' : 'btn-primary'}" onclick="${isLast ? 'submitAndShowResult()' : 'submitCurrentSubject()'}">
     ${isLast ? 'Show Result' : `Submit Subject ${index + 1}`}
 </button>
@@ -186,11 +185,20 @@ function submitAndShowResult() {
 }
 
 function goBackSubject() {
-    if (currentSubjectIndex > 0) {
+    if (currentSubjectIndex === 0) {
+        // Show the subject count input again
+        document.getElementById('subject-count-section').style.display = 'block';
+        document.getElementById('generate-subjects-btn').style.display = 'inline-block';
+        document.getElementById('subject-inputs').innerHTML = '';
+        subjects = [];
+        totalSubjects = 0;
+        currentSubjectIndex = 0;
+    } else {
         currentSubjectIndex--;
         showSubjectForm(currentSubjectIndex);
     }
 }
+
 
 function checkResult() {
     localStorage.setItem('subjects', JSON.stringify(subjects));

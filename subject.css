@@ -24,15 +24,23 @@
 }
 
 #first-page {
-    padding: 5px 10px;
+    padding: 5px 20px;
     border: none;
-    background-color: rgb(68, 151, 57);
+    background-color: rgb(220, 233, 222);
     border-radius: 5px;
     color: white;
-    font-size: 15px;
     text-align: center;
+    transition: all .3s ease;
     position: absolute;
-    top: 1.7rem;
-    left: 1rem;
+    top: 1rem;
+    left: 2rem;
+}
 
+#first-page:hover {
+    background-color: rgb(68, 151, 57);
+}
+
+#first-page img {
+    width: 20px;
+    color: white;
 }

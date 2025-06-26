@@ -173,7 +173,8 @@ table th {
 .class-name-info,
 .rollno-info,
 .grade-info,
-.total-marks-info {
+.total-marks-info,
+.percentage-info {
     font-weight: 600;
     padding-top: 12px;
 }

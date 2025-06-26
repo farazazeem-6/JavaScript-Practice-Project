@@ -13,6 +13,7 @@ table td {
 .class-name-info,
 .rollno-info,
 .grade-info,
-.total-marks-info {
+.total-marks-info,
+.percentage-info {
     border-bottom: 3px solid black;
 }

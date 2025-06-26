@@ -29,8 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-    document.querySelector('.total-marks-info').innerText = `Total: ${obtainedMarks} / ${totalMarks}`;
+    document.querySelector('.total-marks-info').innerText = `Total:    ${obtainedMarks} / ${totalMarks}`;
     document.querySelector('.grade-info').innerText = `Grade: ${getGrade((obtainedMarks / totalMarks) * 100)}`;
+    document.querySelector('.percentage-info').innerText = `Percentage: ${((obtainedMarks / totalMarks) * 100).toFixed(2)}%`
 });
 
 function getGrade(percentage) {
