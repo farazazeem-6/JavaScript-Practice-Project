@@ -26,7 +26,8 @@
 #first-page {
     padding: 5px 20px;
     border: none;
-    background-color: rgb(220, 233, 222);
+    /* background-color: rgb(29, 105, 40); */
+    background-color: white;
     border-radius: 5px;
     color: white;
     text-align: center;
@@ -42,5 +43,5 @@
 
 #first-page img {
     width: 20px;
-    color: white;
+    /* color: white; */
 }

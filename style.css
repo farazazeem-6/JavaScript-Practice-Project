@@ -4,12 +4,11 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 
+
 }
 
 body {
-    /* background-color: rgb(242, 247, 247); */
-    background-color: rgb(220, 233, 222);
-    /* background-color: #0f0f0f; */
+    background-color: rgb(255, 255, 255);
 }
 
 .studentname-invalid-input,
@@ -37,18 +36,17 @@ body {
 .outer-container h1 {
     font-size: 32px;
     font-weight: 800;
-    color: rgb(68, 151, 57);
+    /* color: rgb(68, 151, 57); */
     text-align: center;
     text-decoration: underline;
 }
 
 .outer-container h3 {
-    color: rgb(68, 151, 57);
+    /* color: rgb(68, 151, 57); */
     text-align: center;
-    text-decoration: underline;
     font-weight: 600;
     font-size: 22px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -144,21 +142,23 @@ input:-webkit-autofill {
 }
 
 .result-info {
-    width: 60%;
+    width: 65%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
 table {
     border: 1px solid black;
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
 table th {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
+
+
 }
 
 #subject-table-body td {
@@ -175,7 +175,6 @@ table th {
 .grade-info,
 .total-marks-info,
 .percentage-info {
-    font-weight: 600;
     padding-top: 12px;
 }
 

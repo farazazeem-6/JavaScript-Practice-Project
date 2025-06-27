@@ -22,26 +22,55 @@
 
 
 <body>
-    <div class="outer-container">
-        <h1>Student Result Portal</h1>
-        <h3>Result Card</h3>
+    <div class="result-container">
+        <!-- <h1>Student Result Portal</h1> -->
+        <h3>BOARD OF INTERMEDIATE & SECONDARY EDUCATION,FAISALABAD</h3>
         <div class="result-info">
-            <div class="student-name-info">Student Name: </div>
-            <div class="father-name-info">Father Name: </div>
-            <div class="class-name-info">Class Name: </div>
-            <div class="rollno-info">Roll No: </div>
-            <div class="grade-info">Grade: </div>
-            <div class="total-marks-info">Total Marks: </div>
-            <div class="percentage-info">Percentage: </div>
+            <div class="top-main-box">
+                <div class="top-left-info">
+                    <div class="rollno-info">Roll No:</div>
+                    <div class="status-info" style="border-bottom: 1px solid black;">Result: <span
+                            style="margin-left: 5px; ">Pass</span> </div>
+                </div>
+                <div class="top-center-info">
+                    <img src="/biselogo.png" alt="">
+                </div>
+                <div class="top-right-info">
+                    <div class="serial-no-info" style="border-bottom: 1px solid black;">Serial No: 895610</div>
+                    <div class="reg-no-info" style="border-bottom: 1px solid black;">Enrolment No: 10092-21018-2021
+                    </div>
+                </div>
+            </div>
+            <div class="mid-heading">
+                <h4>PROVISIONAL RESULT INTIMATION</h4>
+                <h5>SECONDARY SCHOOL, CERTIFICATE (SUPPLEMENTARY) EXAMINATION, 2021</h5>
+            </div>
+            <div class="major-info">
+                <div class="major-left">
+                    <div class="student-name-info">Student Name: </div>
+                    <div class="father-name-info">Father Name: </div>
+                    <div class="class-name-info">Class Name: </div>
+
+                    <div class="grade-info">Grade: </div>
+                    <div class="total-marks-info">Total Marks: </div>
+                    <div class="percentage-info">Percentage: </div>
+                </div>
+                <div class="major-right">
+                    <img src="/1683636704263.jpeg" alt="">
+                </div>
+
+            </div>
         </div>
 
         <table class="table table-bordered mt-4">
-            <thead class="table-dark">
+
+            <thead class="">
+
                 <tr>
-                    <th>Subject</th>
-                    <th>Total Marks</th>
-                    <th>Obtained Marks</th>
-                    <th>Grade</th>
+                    <th style="border:1px solid black; background-color: rgb(241, 238, 238);">Subject</th>
+                    <th style="border:1px solid black; background-color: rgb(241, 238, 238);">Total Marks</th>
+                    <th style="border:1px solid black; background-color: rgb(241, 238, 238);">Obtained Marks</th>
+                    <th style="border:1px solid black; background-color: rgb(241, 238, 238);">Grade</th>
                 </tr>
             </thead>
             <tbody id="result-table-body">
@@ -49,8 +78,33 @@
             </tbody>
         </table>
 
-
-        <div class="trash" style=" margin-top: 2rem;"></div>
+    </div>
+    <div class="numberinword">
+        <h2>The candidate has passed and obtained marks : <span>Seven Hundred</span></h2>
+    </div>
+    <div class="note">
+        <ol style="list-style-type: lower-roman;">
+            <p style="font-weight: 600;">NOTE:</p>
+            <li>This provisional result intimation is issued as a notice only, errors and omissions excepted. If a
+                candidate finds any discrepancy in the Result Intimation or desires correction in any of the
+                particulars, he/she may contact the Board within 30 days after declaration of the result. Any entry
+                appearing in it does not itself confer any right or privilege independently for the grant of proper
+                certificate, which will be issued under the Rules/Regulations.</li>
+            <li>The Star (*) indicates that the candidate has passed the subject/s with concessional marks under Board
+                Rule.</li>
+            <li>Candidate intending to apply for re-checking of his/her paper/s may apply Online within 15 days after
+                declaration of the result.</li>
+            <li> A candidate intending to improve his/her grade or marks is allowed to appear in Subject/s or Part-I or
+                Part-II or both in current / prevalent syllabus with one examination opportunity within Two years of
+                passing relevant examination in the same group/subjects in which he/she previously passed the
+                examination. If the candidate qualified subject/s with concessional marks, he/she will also have to
+                appear and qualify in those subject/s for improvement of marks/grade. In case a candidate fails to
+                improve his/her marks/grade in any part or subject/s, his/her previous result will remain intact. A
+                candidate may improve his/her marks in the concerned Board from where he/she has already passed his/her
+                examination.</li>
+            <li> If the result intimation is lost, the result intimation can be obtained by the candidate on payment of
+                prescribed fee.</li>
+        </ol>
     </div>
     <button id="go-back-btn" class="btn btn-success mt-4">Go to home page</button>
     <script src="/result.js"></script>

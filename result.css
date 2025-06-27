@@ -5,7 +5,7 @@ table td {
 #go-back-btn {
     display: flex;
     margin: 0px auto 2rem;
-    
+
 }
 
 .student-name-info,
@@ -15,5 +15,102 @@ table td {
 .grade-info,
 .total-marks-info,
 .percentage-info {
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+
+.top-main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-container {
+    width: 80%;
+    margin: auto;
+}
+
+.result-container h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 1rem;
+
+}
+
+.top-left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.top-center-info {
+    margin-left: 30px;
+}
+
+.top-center-info img {
+    width: 100px;
+}
+
+.top-right-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mid-heading h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.mid-heading h5 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.major-info {
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+.major-left {
+    width: 70%;
+}
+
+.major-right img {
+    width: 220px;
+    border: 1px solid black;
+}
+
+.table {
+    width: 70%;
+}
+
+.numberinword h2 {
+    font-size: 16px;
+    font-weight: 600;
+    /* text-align: center; */
+    padding-left: 10rem;
+}
+
+.numberinword {
+    width: 80%;
+    margin: auto;
+}
+.note{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.note ol li{
+    padding-bottom: 5px;
 }

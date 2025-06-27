@@ -111,7 +111,15 @@ function validateAndCollectInput() {
     } else if (!nameRegex.test(name)) {
         document.getElementById('name-error').innerText = 'Name must only contain alphabets';
         isValid = false;
-    } else if (name.length < 3 || name.length > 15) {
+
+    }
+    else if (!/^[A-Za-z]$/.test(name[0]) || name.slice(1).toLowerCase() !== name.slice(1)) {
+        document.getElementById('name-error').innerText = 'Only the first character can be uppercase. Remaining must be lowercase.';
+        isValid = false;
+    }
+
+
+    else if (name.length < 3 || name.length > 15) {
         document.getElementById('name-error').innerText = 'Too long or too short name';
         isValid = false;
     } else {
