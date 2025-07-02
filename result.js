@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelector('.student-name-info').innerHTML = `NAME: <span style=" margin-left: 5px; " >${studentInfo.studentName} </span>`;
     document.querySelector('.father-name-info').innerHTML = `FATHER'S NAME: <span style=" margin-left: 5px;" >${studentInfo.fatherName} </span>`;
-    document.querySelector('.rollno-info').innerHTML = `Roll no: <span style=" margin-left: 5px;" >${studentInfo.rollno} </span>`;;
+    document.querySelector('.rollno-info').innerHTML = `Roll no: <span style=" margin-left: 5px;" >${studentInfo.rollno} </span>`;
     document.querySelector('.class-name-info').innerHTML = `CLASS NAME: <span style=" margin-left: 5px;" >${studentInfo.className} </span>`;
 
     const tableBody = document.querySelector('#result-table-body');
